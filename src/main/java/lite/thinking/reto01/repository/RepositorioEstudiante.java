@@ -8,6 +8,10 @@ import java.util.List;
 @Repository
 public class RepositorioEstudiante {
 
+    /**
+     * Genera el repositorio de clientes
+     * @return
+     */
     public List<Estudiante> listaEstudiantes() {
         List<Estudiante> estudiantes = new ArrayList<Estudiante>();
         estudiantes.add(new Estudiante("0981231231","Pedro","pedro@gmail.com",1,9.8));
